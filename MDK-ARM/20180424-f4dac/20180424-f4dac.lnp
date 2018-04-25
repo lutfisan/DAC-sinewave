@@ -1,0 +1,27 @@
+--cpu=Cortex-M4.fp
+"20180424-f4dac\startup_stm32f407xx.o"
+"20180424-f4dac\stm32f4xx_hal.o"
+"20180424-f4dac\stm32f4xx_hal_flash_ex.o"
+"20180424-f4dac\stm32f4xx_hal_dma.o"
+"20180424-f4dac\stm32f4xx_hal_gpio.o"
+"20180424-f4dac\stm32f4xx_hal_flash.o"
+"20180424-f4dac\stm32f4xx_hal_tim_ex.o"
+"20180424-f4dac\stm32f4xx_hal_pwr_ex.o"
+"20180424-f4dac\stm32f4xx_hal_rcc.o"
+"20180424-f4dac\stm32f4xx_hal_rcc_ex.o"
+"20180424-f4dac\stm32f4xx_hal_dac.o"
+"20180424-f4dac\stm32f4xx_hal_pwr.o"
+"20180424-f4dac\stm32f4xx_hal_tim.o"
+"20180424-f4dac\stm32f4xx_hal_flash_ramfunc.o"
+"20180424-f4dac\stm32f4xx_hal_dma_ex.o"
+"20180424-f4dac\stm32f4xx_hal_cortex.o"
+"20180424-f4dac\stm32f4xx_hal_dac_ex.o"
+"20180424-f4dac\system_stm32f4xx.o"
+"20180424-f4dac\stm32f4xx_it.o"
+"20180424-f4dac\stm32f4xx_hal_msp.o"
+"20180424-f4dac\main.o"
+"C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Lib\ARM\arm_cortexM4lf_math.lib"
+--library_type=microlib --strict --scatter "20180424-f4dac\20180424-f4dac.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "20180424-f4dac.map" -o 20180424-f4dac\20180424-f4dac.axf
